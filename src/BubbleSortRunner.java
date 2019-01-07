@@ -22,6 +22,8 @@ public class BubbleSortRunner{
         for (int num:testArr){
             System.out.print(num+" ");
         }
+        System.out.println();
+
 
         if( SortingAlgorithm.checkSort(testArr) && SortingAlgorithm.checkSum(oriTestArr,finTestArray)){
             System.out.print("The Algorithm is successful!");
