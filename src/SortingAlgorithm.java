@@ -23,6 +23,13 @@ public class SortingAlgorithm {
             }
     }
 }
+    public static void selectionSort(int[] arr){
+        int minPos = 0;
+        for (int curPos = 0; curPos < arr.length; curPos++)
+             minVal = arr[curPos];
+
+        }
+    }
     public static boolean checkSort(int [] arr){
         for (int i = 0; i < arr.length-1; i++){
             if (i > i+1){
